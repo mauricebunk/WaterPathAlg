@@ -125,6 +125,13 @@ class MapCreator:
 # names = MDCreator()
 # names.setAllData()
 
+#prevention of stack overflow (not used yet)
+#while len(waitArr) > 0:
+#   if waitArr[0].RGB != "#0000FF":
+#       find.pathFinder(waitArr[0].x, waitArr[0].y, nap)
+#   print(str(waitArr[0].x) +" "+ str(waitArr[0].y))
+#   del waitArr[0]
+
 # Dit is om het algoritme uit te voeren
 start=55
 secondhalf=int(math.sqrt(len(obj)))
